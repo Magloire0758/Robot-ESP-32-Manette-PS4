@@ -10,14 +10,13 @@ Ce projet consiste à piloter un robot à l'aide d'une carte **ESP32** connecté
 - Moteurs DC ou servomoteurs (selon la version du robot)
 - Pont en H (L298N ou autre)
 - Batterie Li-ion 7.4V ou powerbank
-- Châssis de robot à 2 ou 4 roues
+- Châssis de robot à 4 roues
 - Câbles Dupont, breadboard (optionnel)
 
 ## 📦 Librairies Arduino utilisées
 
 - `PS4Controller.h` : pour connecter la manette PS4 via Bluetooth
-- `ESP32Servo.h` (si servomoteurs)
-- `BluetoothSerial.h` (optionnel)
+
 
 ## 🔧 Installation
 
@@ -39,4 +38,4 @@ Ce projet consiste à piloter un robot à l'aide d'une carte **ESP32** connecté
 |------------|---------------------|
 | Joystick gauche | Avancer / Reculer |
 | Joystick droit  | Tourner gauche / droite |
-| Croix / Rond    | Autres fonctions (ex. LED, buzzer) 
+| Croix / Rond    | Autres fonctions (ex. Freiner, Augmenter la vitesse) 
